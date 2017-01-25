@@ -43,12 +43,34 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="DoFactoryExample\AfricaFactory.cs" />
+    <Compile Include="DoFactoryExample\AmericaFactory.cs" />
+    <Compile Include="DoFactoryExample\AnimalWorld.cs" />
+    <Compile Include="DoFactoryExample\Bison.cs" />
+    <Compile Include="DoFactoryExample\Carnivore.cs" />
+    <Compile Include="DoFactoryExample\ContinentFactory.cs" />
+    <Compile Include="DoFactoryExample\Herbivore.cs" />
+    <Compile Include="DoFactoryExample\Lion.cs" />
+    <Compile Include="DoFactoryExample\MainApp.cs" />
+    <Compile Include="DoFactoryExample\WildBeast.cs" />
+    <Compile Include="DoFactoryExample\Wolf.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RestaurantMenuExample\BreakfastMealFactory.cs" />
+    <Compile Include="RestaurantMenuExample\DinnerMealFactory.cs" />
+    <Compile Include="RestaurantMenuExample\Drink.cs" />
+    <Compile Include="RestaurantMenuExample\Food.cs" />
+    <Compile Include="RestaurantMenuExample\Kiosk.cs" />
+    <Compile Include="RestaurantMenuExample\LunchMenuFactory.cs" />
+    <Compile Include="RestaurantMenuExample\Mains.cs" />
+    <Compile Include="RestaurantMenuExample\MealFactory.cs" />
+    <Compile Include="RestaurantMenuExample\MealOrder.cs" />
+    <Compile Include="RestaurantMenuExample\Side.cs" />
+    <Compile Include="WithoutFactory\Meals.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

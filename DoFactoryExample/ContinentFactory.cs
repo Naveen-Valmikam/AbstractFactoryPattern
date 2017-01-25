@@ -1,0 +1,8 @@
+﻿namespace AbstractFactory.DoFactoryExample
+{
+    public abstract class ContinentFactory
+    {
+        public abstract Herbivore CreateHerbivore();
+        public abstract Carnivore CreateCarnivore();
+    }
+}

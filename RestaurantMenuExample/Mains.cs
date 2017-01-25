@@ -4,12 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AbstractFactory
+namespace AbstractFactory.RestaurantMenuExample
 {
-    class Program
+    public abstract class Mains
     {
-        static void Main(string[] args)
-        {
-        }
+        public int Price { get; set; }
     }
 }
